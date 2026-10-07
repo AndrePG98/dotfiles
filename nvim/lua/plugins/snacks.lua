@@ -56,7 +56,7 @@ local snacks = {
                     },
                 },
                 explorer = {
-                    hidden = true,
+                    exclude = { '*.uid' },
                     layout = {
                         layout = {
                             position = 'right',
