@@ -144,8 +144,7 @@ local blink = { -- Autocompletion
         },
 
         sources = {
-            -- default = { 'lsp', 'path', 'snippets', 'lazydev', 'buffer', 'ripgrep', 'copilot', 'choice' },
-            default = { 'lsp', 'path', 'snippets', 'lazydev', 'buffer', 'ripgrep', 'choice' },
+            default = { 'lsp', 'path', 'snippets', 'lazydev', 'buffer', 'ripgrep', 'copilot', 'choice' },
             providers = {
                 lsp = { score_offset = 90 },
                 lazydev = { name = 'LazyDev', module = 'lazydev.integrations.blink', score_offset = 100 },
